@@ -62,13 +62,14 @@
   "workspaces": [
     "skip-chinese-ads",
     "switch-app-store-account",
-    "simulate-location"
+    "simulate-location",
+    "activity-monitor"
   ],
   "scripts": {
     "build": "bun run --filter '*' build",
     "check": "bun run --filter '*' check"
   },
   "devDependencies": {
-    "@swipt/cli": "0.1.0-nightly.86"
+    "@swipt/cli": "0.1.0-nightly.90"
   }
 }
