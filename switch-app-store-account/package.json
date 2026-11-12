@@ -5,6 +5,7 @@
   "swiplet": {
     "id": "switch-app-store-account",
     "name": "Switch App Store Account",
+    "minimumAPILevel": 2,
     "localizedNames": {
       "ar": "تبديل حساب App Store",
       "bg": "Смяна на акаунт в App Store",
@@ -58,8 +59,9 @@
       "zh-Hant-HK": "切換 App Store 帳户"
     },
     "icon": {
-      "color": "blue",
-      "symbol": "person.2.circle.fill"
+      "color": "#191D36",
+      "symbol": "person.2.circle.fill",
+      "symbolColor": "#B7C5FF"
     },
     "app": "./src/App.tsx",
     "extension": "./src/extension.ts"
@@ -70,8 +72,8 @@
   },
   "devDependencies": {
     "@expo/ui": "~58.0.26",
-    "@swipt/api": "0.1.0-nightly.86",
-    "@swipt/cli": "0.1.0-nightly.86",
+    "@swipt/api": "0.1.0-nightly.90",
+    "@swipt/cli": "0.1.0-nightly.90",
     "@types/react": "~19.3.0",
     "react": "19.3.0",
     "typescript": "^7.0.2"

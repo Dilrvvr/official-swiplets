@@ -5,6 +5,7 @@
   "swiplet": {
     "id": "simulate-location",
     "name": "Simulate Location",
+    "minimumAPILevel": 2,
     "localizedNames": {
       "ar": "محاكاة الموقع",
       "bg": "Симулиране на местоположение",
@@ -58,8 +59,9 @@
       "zh-Hant-HK": "模擬位置"
     },
     "icon": {
-      "color": "blue",
-      "symbol": "location.fill"
+      "color": "#102C29",
+      "symbol": "location.fill",
+      "symbolColor": "#65E3C3"
     },
     "app": "./src/App.tsx",
     "extension": "./src/extension.ts"
@@ -70,8 +72,8 @@
   },
   "devDependencies": {
     "@expo/ui": "~58.0.26",
-    "@swipt/api": "0.1.0-nightly.86",
-    "@swipt/cli": "0.1.0-nightly.86",
+    "@swipt/api": "0.1.0-nightly.90",
+    "@swipt/cli": "0.1.0-nightly.90",
     "@types/react": "~19.3.0",
     "expo-maps": "~58.0.11",
     "react": "19.3.0",

@@ -5,6 +5,7 @@
   "swiplet": {
     "id": "skip-chinese-ads",
     "name": "Skip Chinese App Ads",
+    "minimumAPILevel": 2,
     "localizedNames": {
       "ar": "تخطي إعلانات التطبيقات الصينية",
       "bg": "Пропускане на реклами в китайски приложения",
@@ -58,8 +59,9 @@
       "zh-Hant-HK": "跳過廣告"
     },
     "icon": {
-      "color": "red",
-      "symbol": "forward.end.fill"
+      "color": "#2B151B",
+      "symbol": "forward.end.fill",
+      "symbolColor": "#FF837A"
     },
     "app": "./src/App.tsx",
     "extension": "./src/extension.ts"
@@ -70,8 +72,8 @@
   },
   "devDependencies": {
     "@expo/ui": "~58.0.26",
-    "@swipt/api": "0.1.0-nightly.86",
-    "@swipt/cli": "0.1.0-nightly.86",
+    "@swipt/api": "0.1.0-nightly.90",
+    "@swipt/cli": "0.1.0-nightly.90",
     "@types/react": "~19.3.0",
     "expo-sqlite": "~58.0.15",
     "react": "19.3.0",
